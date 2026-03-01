@@ -3,7 +3,7 @@ name: Publish container
 on:
   workflow_dispatch:
   schedule:
-    - cron: "4 5 1 * *"
+    - cron: '4 5 1 * *'
 
 jobs:
   build_and_push:
